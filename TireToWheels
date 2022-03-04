@@ -1,0 +1,8 @@
+#include <linkbot.h>
+
+CLinkbotI robot;
+
+robot.setJointSpeed(JOINT1, 200);
+robot.setJointSpeed(JOINT3, 200);
+
+robot.driveDistance(150,1.75,);
